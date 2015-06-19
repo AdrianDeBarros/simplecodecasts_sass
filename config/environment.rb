@@ -5,7 +5,7 @@ require File.expand_path('../application', __FILE__)
 Rails.application.initialize!
 
 ActionMailer::Base.smtp_settings = {
-    :port           => ENV['587'],
+    :port           => ENV['25'],
     :address        => ENV['smtp.mailgun.org'],
     :user_name      => ENV['MAILGUN_SMTP_LOGIN'],
     :password       => ENV['MAILGUN_SMTP_PASSWORD'],
