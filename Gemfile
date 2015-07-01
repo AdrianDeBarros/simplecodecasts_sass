@@ -12,7 +12,7 @@ group:production do
 end
 
 #Use boostrap library library for styles
-gem 'bootstrap-sass', '~> 3.3.4'
+gem 'bootstrap-sass',  '~> 3.3.4'
 
 #Use Font awesome library for icons
 gem 'font-awesome-sass', '~> 4.3.0'
